@@ -82,6 +82,18 @@ body {
  width             : 80%;
 }
 
+.sp90PCenter {
+ width             : 90%;
+ margin-left       : auto !important;
+ margin-right      : auto !important;
+}
+
+.sp95PCenter {
+ width             : 95%;
+ margin-left       : auto !important;
+ margin-right      : auto !important;
+}
+
 .sp90CenterImg {
  text-align        : center !important;
 }
@@ -271,6 +283,82 @@ body {
 
 #breadcrumbsList li.now {
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.curriculumTab01,
+.curriculumTab02 {
+ width           : 95%;
+ margin-right    : auto;
+ margin-left     : auto;
+ border-top      : 1px solid #be1823;
+}
+
+.curriculumTab01 tr th,
+.curriculumTab02 tr th {
+ background      : #efefef;
+ text-align      : left;
+ padding         : 5px;
+ color           : #be1823;
+ border-right    : 1px solid #be1823;
+ border-bottom   : 1px solid #be1823;
+}
+
+.curriculumTab01 tr th {
+ width           : 100px;
+}
+.curriculumTab02 tr th {
+ width           : 100px;
+ vertical-align  : top;
+}
+
+.curriculumTab01 tr td,
+.curriculumTab02 tr td {
+ border-right    : 1px solid #be1823;
+ border-bottom   : 1px solid #be1823;
+}
+
+.curriculumTab01 tr td {
+ padding         : 5px;
+ text-align      : center;
+}
+
+.curriculumTab01 tr td img {
+ width           : 80px;
+}
+
+.curriculumTab02 tr td img {
+ width           : 150px;
+}
+
+.curriculumTab02 tr td {
+ padding         : 5px;
+ text-align      : left;
+ border-right    : none;
+}
+
+.curriculumTab01 tr td.noBdRight {
+ text-align      : center;
+ border-right    : none;
+}
+
+
+
+
 
 
 

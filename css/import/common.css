@@ -61,6 +61,10 @@ body.rssBody {
  font-family     : 'inherit','Hiragino Kaku Gothic Pro',sans-serif,"‚l‚r ‚oƒSƒVƒbƒN", HiraKakuPro-W3, Osaka !important;
 }
 
+.underline {
+ text-decoration : underline;
+}
+
 h1,h2,h3,h4,h5,h6 {
  font-size       : 1.0em;
 }
@@ -81,3 +85,17 @@ ol.inlineList li,
 .inline {
  display         : inline;
 }
+
+
+
+/* grayLink */
+a.grayLink:link,
+a.grayLink:visited,
+a.grayLink:hover {
+ color           : #6e6d6e;
+ text-decoration : none;
+}
+a.grayLink:hover {
+ text-decoration : underline;
+}
+/* grayLink */

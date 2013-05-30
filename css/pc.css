@@ -388,15 +388,55 @@ table {
 }
 
 .bdDtd {
- border-bottom   : 1px dashed #e7a7ab !important;
+ border-bottom   : 1px dashed #be1823 !important;
 }
 
 .bdNone {
  border          : none !important;
 }
 
+.curriculumTab01,
+.curriculumTab02 {
+ width           : 100%;
+ border-top      : 1px solid #be1823;
+}
+
+.curriculumTab01 tr th,
+.curriculumTab02 tr th {
+ background      : #efefef;
+ text-align      : left;
+ padding         : 5px 20px;
+ color           : #be1823;
+ border-right    : 1px solid #be1823;
+ border-bottom   : 1px solid #be1823;
+}
+
+.curriculumTab01 tr td,
+.curriculumTab02 tr td {
+ border-right    : 1px solid #be1823;
+ border-bottom   : 1px solid #be1823;
+}
+
+.curriculumTab01 tr td {
+ padding         : 5px;
+ text-align      : center;
+}
+
+.curriculumTab02 tr td {
+ padding         : 10px 20px;
+ text-align      : left;
+ border-right    : none;
+}
 
 
+.curriculumTab01 tr td.noBdRight {
+ text-align      : center;
+ border-right    : none;
+}
+
+.curriculumTab02 tr th {
+ width           : 215px;
+}
 
 
 
