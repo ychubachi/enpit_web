@@ -1,0 +1,83 @@
+* {
+ margin          : 0px;
+ padding         : 0px;
+}
+
+html {
+ height          : auto;
+}
+
+body {
+ font-family     : "‚l‚r ‚oƒSƒVƒbƒN", HiraKakuPro-W3, Osaka, "ƒqƒ‰ƒMƒmŠpƒS Pro W3", verdana, arial, sans-serif;
+ font-size       : 13px;
+ line-height     : 1.8em;
+ height          : auto;
+ margin          : 0px;
+ padding         : 0px;
+ color           : #000;
+}
+
+body.rssBody {
+ background      : red !important;
+}
+
+.mincho {
+  font-family    : "‚l‚r ‚o–¾’©","ƒqƒ‰ƒMƒm–¾’© Pro W6","Hiragino Mincho Pro",serif !important;
+}
+
+.roma {
+ font-family     : "TitilliumMaps",helvetica,sans-serif;
+}
+
+.osaka {
+ font-family     : Osaka,"‚l‚r ‚oƒSƒVƒbƒN", HiraKakuPro-W3, Osaka, "ƒqƒ‰ƒMƒmŠpƒS Pro W3", verdana, arial, sans-serif !important;
+}
+
+.hgp {
+  font-family    : "HGP‘n‰pŠpºŞ¼¯¸UB";
+}
+
+.meiryo {
+ font-family     : "ƒƒCƒŠƒI","Meiryo",arial,"ƒqƒ‰ƒMƒmŠpƒS Pro W3","Hiragino Kaku Gothic Pro",Osaka,"‚l‚r ‚oƒSƒVƒbƒN","MS PGothic",Sans-Serif !important;
+}
+
+.mspG {
+ font-family     : "‚l‚r ‚oƒSƒVƒbƒN", HiraKakuPro-W3, Osaka, "ƒqƒ‰ƒMƒmŠpƒS Pro W3", verdana, arial, sans-serif !important;
+}
+
+.arial {
+ font-family     : 'arial black','ƒqƒ‰ƒMƒmŠpƒS Pro W3','Hiragino Kaku Gothic Pro',sans-serif,"‚l‚r ‚oƒSƒVƒbƒN", HiraKakuPro-W3, Osaka !important;
+}
+
+.antiAreas {
+ font-family     : "Lucida Grande","Hiragino Kaku Gothic Pro","ƒqƒ‰ƒMƒmŠpƒS Pro W3",Osaka,"‚l‚r ‚oƒSƒVƒbƒN","MS PGothic",sans-serif !important;
+}
+
+.hiragino {
+ font-family     : 'ƒqƒ‰ƒMƒmŠpƒS Pro W3','Hiragino Kaku Gothic Pro',sans-serif,"‚l‚r ‚oƒSƒVƒbƒN", HiraKakuPro-W3, Osaka !important;
+}
+
+.inherit {
+ font-family     : 'inherit','Hiragino Kaku Gothic Pro',sans-serif,"‚l‚r ‚oƒSƒVƒbƒN", HiraKakuPro-W3, Osaka !important;
+}
+
+h1,h2,h3,h4,h5,h6 {
+ font-size       : 1.0em;
+}
+
+ul {
+ list-style-type : none;
+}
+
+ul.normalList {
+ list-style-type : disc;
+ margin-left     : 15px;
+}
+
+dl.inlineList dt,
+dl.inlineList dd,
+ul.inlineList li,
+ol.inlineList li,
+.inline {
+ display         : inline;
+}
