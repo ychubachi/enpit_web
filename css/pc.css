@@ -91,31 +91,11 @@
  margin          : 0 auto;
 }
 
-
-
-
-
-
-
-
 #breadcrumbsList {
  padding         : 15px 0px;
  font-size       : 1.0em;
 }
 
-#breadcrumbsList li {
- background      : url(../images/ic_breadcrumbs.gif) no-repeat 2px 45%;
- padding         : 0px 0px 0px 17px;
- display         : inline;
-}
-
-#breadcrumbsList li.home {
- background      : none;
- padding         : 0px;
-}
-
-#breadcrumbsList li.now {
-}
 
 
 
@@ -215,12 +195,6 @@ h1 {
  margin          : 0px 0px 15px 0px;
 }
 
-.discList li {
- background      : url(../images/ic_disc.gif) no-repeat 0 0.4em;
- padding         : 0px 0px 0px 15px;
- margin          : 0px 0px 5px 0px;
-}
-
 .inlineDiscList li {
  background      : url(../images/ic_disc.gif) no-repeat 0 0.1em;
  padding         : 0px 0px 0px 15px;
@@ -228,7 +202,6 @@ h1 {
  display         : inline;
  font-size       : 1.2em;
 }
-
 
 #enpit {
  background      : url("../images/img_index_04.jpg") no-repeat scroll 0 0 transparent;
@@ -270,18 +243,6 @@ h1 {
  text-decoration : none;
 }
 
-
-.stdH2 {
- font-family     : 'ƒqƒ‰ƒMƒmŠpƒS Pro W3','Hiragino Kaku Gothic Pro',"‚l‚r ‚oƒSƒVƒbƒN","HGP‘n‰pŠpºÞ¼¯¸UB",sans-serif,"‚l‚r ‚oƒSƒVƒbƒN", HiraKakuPro-W3, Osaka !important;
- background      : #dcdcdd;
- border-left     : 8px solid #be1823;
- font-size       : 1.3em;
- font-weight     : bold;
- padding         : 5px 10px;
- margin          : 0px 0px 15px 0px;
-}
-
-
 .programFlow {
  background      : url(../images/ic_arrow.gif) no-repeat center bottom;
  padding         : 0px 0px 56px 0px;
@@ -296,8 +257,28 @@ h1 {
  margin          : 0px 0px 15px 0px;
 }
 
+.linkPageList {
+ width           : 95%;
+ margin          : 0 auto;
+}
 
+.pagetop {
+ text-align      : right;
+ width           : 850px;
+ margin          : 0 auto 10px;
+}
 
+.pagetop a {
+ background      : url(../images/ic_pagetop_off.gif) no-repeat 0 50%;
+ padding         : 10px 0px 10px 23px;
+ font-weight     : bold;
+ color           : #000 !important;
+}
+
+.pagetop a:hover {
+ background      : url(../images/ic_pagetop_on.gif) no-repeat 0 50%;
+ color           : #78171b !important;
+}
 
 
 
@@ -411,26 +392,9 @@ table {
  border-bottom   : 1px solid #be1823;
 }
 
-.curriculumTab01 tr td,
-.curriculumTab02 tr td {
- border-right    : 1px solid #be1823;
- border-bottom   : 1px solid #be1823;
-}
-
-.curriculumTab01 tr td {
- padding         : 5px;
- text-align      : center;
-}
-
 .curriculumTab02 tr td {
  padding         : 10px 20px;
  text-align      : left;
- border-right    : none;
-}
-
-
-.curriculumTab01 tr td.noBdRight {
- text-align      : center;
  border-right    : none;
 }
 
@@ -444,18 +408,6 @@ table {
 /***********************************************
   11.font
 ***********************************************/
-
-/* background */
-.whiteBg   { background : #fff !important; }
-.greenBg   { background : #119493 !important; }
-.blueBg    { background : #1e91b9 !important; }
-.redBg     { background : #951b21 !important; }
-
-/* color */
-.white     { color:#fff !important; }
-.red       { color:#be1823 !important; }
-.blue      { color:#447fd1 !important; }
-.black     { color:#333333 !important; }
 
 
 
@@ -559,18 +511,6 @@ a.borderLink:hover {
  text-decoration : underline;
 }
 /* footer */
-
-/* copy */
-#copy a:link,
-#copy a:visited,
-#copy a:hover {
- color           : #000;
- text-decoration : none;
-}
-#copy a:hover {
- text-decoration : underline;
-}
-/* copy */
 
 /* pageTop */
 #pageTop a:link,

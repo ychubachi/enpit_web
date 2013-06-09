@@ -107,12 +107,6 @@ body {
  margin            : 0 auto;
 }
 
-.discList li {
- background        : url(../images/ic_disc.gif) no-repeat 0 0.4em;
- padding           : 0px 0px 0px 15px;
- margin            : 0px 0px 5px 0px;
-}
-
 .w95PCenter {
  width             : 95%;
  margin            : 0 auto;
@@ -179,16 +173,6 @@ body {
 .indexH2 a:hover {
  background      : url(../images/ic_arrow_01_on.gif) no-repeat 346px 6px;
  text-decoration : none;
-}
-
-.stdH2 {
- font-family     : 'ƒqƒ‰ƒMƒmŠpƒS Pro W3','Hiragino Kaku Gothic Pro',"‚l‚r ‚oƒSƒVƒbƒN","HGP‘n‰pŠpºÞ¼¯¸UB",sans-serif,"‚l‚r ‚oƒSƒVƒbƒN", HiraKakuPro-W3, Osaka !important;
- background      : #dcdcdd;
- border-left     : 8px solid #be1823;
- font-size       : 1.3em;
- font-weight     : bold;
- padding         : 5px 10px;
- margin          : 0px 0px 15px 0px;
 }
 
 .applicationTab {
@@ -270,19 +254,6 @@ body {
  font-size       : 1.0em;
 }
 
-#breadcrumbsList li {
- background      : url(../images/ic_breadcrumbs.gif) no-repeat 2px 45%;
- padding         : 0px 0px 0px 17px;
- display         : inline;
-}
-
-#breadcrumbsList li.home {
- background      : none;
- padding         : 0px;
-}
-
-#breadcrumbsList li.now {
-}
 
 
 
@@ -326,17 +297,6 @@ body {
  vertical-align  : top;
 }
 
-.curriculumTab01 tr td,
-.curriculumTab02 tr td {
- border-right    : 1px solid #be1823;
- border-bottom   : 1px solid #be1823;
-}
-
-.curriculumTab01 tr td {
- padding         : 5px;
- text-align      : center;
-}
-
 .curriculumTab01 tr td img {
  width           : 80px;
 }
@@ -348,11 +308,6 @@ body {
 .curriculumTab02 tr td {
  padding         : 5px;
  text-align      : left;
- border-right    : none;
-}
-
-.curriculumTab01 tr td.noBdRight {
- text-align      : center;
  border-right    : none;
 }
 
@@ -392,18 +347,6 @@ a:hover {
 }
 /* default */
 
-/* copy */
-#copy a:link,
-#copy a:visited,
-#copy a:hover {
- color           : #000;
- text-decoration : none;
-}
-#copy a:hover {
- text-decoration : underline;
-}
-/* copy */
-
 
 
 /***********************************************
@@ -426,18 +369,6 @@ table {
 .mb30   { margin-bottom: 30px; }
 
 
-
-/* background */
-.whiteBg   { background : #fff !important; }
-.greenBg   { background : #119493 !important; }
-.blueBg    { background : #1e91b9 !important; }
-.redBg     { background : #951b21 !important; }
-
-/* color */
-.white     { color:#fff !important; }
-.red       { color:#be1823 !important; }
-.blue      { color:#447fd1 !important; }
-.black     { color:#333333 !important; }
 
 
 .bdRed     { border : 1px solid #be1823; }
